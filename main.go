@@ -16,7 +16,9 @@ limitations under the License.
 package main
 
 import "github.com/gitpod/mycli/cmd"
+import "fmt"
 
 func main() {
-	cmd.Execute()
+	cmd.Execute()	
+	fmt.Println("My 1st commit using Gitpod")
 }
